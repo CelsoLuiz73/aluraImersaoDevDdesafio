@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Heroes</title>  
+</head>
+
+<body>
+
+    <header>
+        <div class="conteudo-header">
+            <a href="https://www.marvel.com/" target="_blank"><img class="logo-marvel" src="imagens/cabecalho-marvel.png" alt="Logo Marvel"></a>
+
+            <img class="logo-heroes" src="imagens/cabecalho-heroes.png" alt="Logo Heroes"></a>
+
+            <a href="https://www.dc.com/" target="_blank"><img class="logo-dc" src="imagens/cabecalho-dc.png" alt="Logo DC"></a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o seu HEROI aqui" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+    
+        <section class="resultados-pesquisa"
+        id="resultados-pesquisa"></section>
+    </main>
+
+    <footer>
+        <div class="conteudo-footer">
+            <div class="texto-aluno">
+                <p> <strong>Celso Luiz de Oliveira</strong></p>
+            </div>
+            <ol>
+                <div class="celso">
+                    <button id="botao-redes">
+                        <a href="https://www.linkedin.com/in/celsoluiz73/" target="_blank">
+                        <img src="imagens/rodape_linkedin.png" class="img-social-networks-icon" alt="linkedin_social_5085"></a>
+                    </button>
+                </div>
+
+                <div class="celso">
+                    <button id="botao-redes">
+                        <a href="https://github.com/CelsoLuiz73" target="_blank">
+                        <img src="imagens/rodape_github.png" class="img-social-networks-icon" alt="Logo Github"></a>
+                    </button>
+                </div>
+            </ol>
+        </div>
+
+        <div id="texto-declaracao">
+            <div id="texto-01"><p>Projeto referente - Imersão Dev com Google Gemini</p></div>
+            <div id="texto-02"><p>Herois Marvel & DC - Todos Diretos Reservados</p></div>
+            <div id="texto-03"><p>Imagens usadas para fim educativo</p></div>
+        </div>
+
+    </footer>
+
+    <script></script>
+
+    <script src="dados-dc-marvel.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
